@@ -57,8 +57,8 @@ export const resolvers: IResolvers = {
       res.cookie("refresh-token", refreshToken);
       res.cookie("access-token", accessToken);
 
-      // console.log("Refresh Token: " + refreshToken);
-      // console.log("Access Token: " + accessToken);
+      console.log("Refresh Token: " + refreshToken);
+      console.log("Access Token: " + accessToken);
 
       return user;
     },
